@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Estudiante</title>
+</head>
+<body>
+<h2>{{estudiante.nombre}}</h2>
+<h3>{{estudiante.id}}</h3>
+<br>
+<form method="POST" action="">
+    {% csrf_token %}
+
+    <div>
+        <button type="submit">
+            Eliminar Estudiante D;
+        </button>
+    </div>
+</form>
+</body>
+</html>
